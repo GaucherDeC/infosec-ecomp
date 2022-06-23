@@ -1,0 +1,12 @@
+Erreur obtenue en faisant make test:
+
+make -C alpaga
+make[1] : on entre dans le répertoire « /home/alerion/Documents/Cours/infosec-ecomp-master/alpaga »
+make[1]: rien à faire pour « all ».
+make[1] : on quitte le répertoire « /home/alerion/Documents/Cours/infosec-ecomp-master/alpaga »
+./alpaga/alpaga \
+		-g expr_grammar_action.g \
+		-pml src/generated_parser.ml \
+		-t grammar.html
+expr_grammar_action.g:87:19: syntax error
+make: *** [Makefile:12 : main.native] Erreur 255
